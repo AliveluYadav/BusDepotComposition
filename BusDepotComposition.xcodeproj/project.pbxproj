@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D45E7AA71FFF2F68009A2A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D45E7AA61FFF2F68009A2A60 /* main.m */; };
+		D4CB8BB81FFF347800B06396 /* BusDepot.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BB71FFF347800B06396 /* BusDepot.m */; };
+		D4CB8BBB1FFF34C300B06396 /* OrdinaryBus.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BBA1FFF34C300B06396 /* OrdinaryBus.m */; };
+		D4CB8BBE1FFF34FD00B06396 /* ExpressBus.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BBD1FFF34FD00B06396 /* ExpressBus.m */; };
+		D4CB8BC11FFF351400B06396 /* DeluxeBus.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BC01FFF351400B06396 /* DeluxeBus.m */; };
+		D4CB8BC41FFF352D00B06396 /* GarudaBus.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BC31FFF352D00B06396 /* GarudaBus.m */; };
+		D4CB8BCA1FFF3D6600B06396 /* Seat.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BC91FFF3D6600B06396 /* Seat.m */; };
+		D4CB8BCD1FFF45B200B06396 /* Steering.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BCC1FFF45B200B06396 /* Steering.m */; };
+		D4CB8BD01FFF47A300B06396 /* Horn.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BCF1FFF47A300B06396 /* Horn.m */; };
+		D4CB8BD31FFF48E200B06396 /* Doors.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BD21FFF48E200B06396 /* Doors.m */; };
+		D4CB8BD61FFF4C6600B06396 /* AC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BD51FFF4C6600B06396 /* AC.m */; };
+		D4CB8BDF1FFF504800B06396 /* Curtains.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BDE1FFF504800B06396 /* Curtains.m */; };
+		D4CB8BE21FFF524500B06396 /* WaterBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BE11FFF524500B06396 /* WaterBottle.m */; };
+		D4CB8BE51FFF525D00B06396 /* TeleVision.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BE41FFF525D00B06396 /* TeleVision.m */; };
+		D4CB8BE81FFF5A4600B06396 /* Indra.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB8BE71FFF5A4600B06396 /* Indra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +39,34 @@
 /* Begin PBXFileReference section */
 		D45E7AA31FFF2F68009A2A60 /* BusDepotComposition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BusDepotComposition; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45E7AA61FFF2F68009A2A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4CB8BB61FFF347800B06396 /* BusDepot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusDepot.h; sourceTree = "<group>"; };
+		D4CB8BB71FFF347800B06396 /* BusDepot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusDepot.m; sourceTree = "<group>"; };
+		D4CB8BB91FFF34C300B06396 /* OrdinaryBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdinaryBus.h; sourceTree = "<group>"; };
+		D4CB8BBA1FFF34C300B06396 /* OrdinaryBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdinaryBus.m; sourceTree = "<group>"; };
+		D4CB8BBC1FFF34FD00B06396 /* ExpressBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressBus.h; sourceTree = "<group>"; };
+		D4CB8BBD1FFF34FD00B06396 /* ExpressBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressBus.m; sourceTree = "<group>"; };
+		D4CB8BBF1FFF351400B06396 /* DeluxeBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeluxeBus.h; sourceTree = "<group>"; };
+		D4CB8BC01FFF351400B06396 /* DeluxeBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeluxeBus.m; sourceTree = "<group>"; };
+		D4CB8BC21FFF352D00B06396 /* GarudaBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarudaBus.h; sourceTree = "<group>"; };
+		D4CB8BC31FFF352D00B06396 /* GarudaBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarudaBus.m; sourceTree = "<group>"; };
+		D4CB8BC81FFF3D6600B06396 /* Seat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seat.h; sourceTree = "<group>"; };
+		D4CB8BC91FFF3D6600B06396 /* Seat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seat.m; sourceTree = "<group>"; };
+		D4CB8BCB1FFF45B200B06396 /* Steering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Steering.h; sourceTree = "<group>"; };
+		D4CB8BCC1FFF45B200B06396 /* Steering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Steering.m; sourceTree = "<group>"; };
+		D4CB8BCE1FFF47A300B06396 /* Horn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horn.h; sourceTree = "<group>"; };
+		D4CB8BCF1FFF47A300B06396 /* Horn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horn.m; sourceTree = "<group>"; };
+		D4CB8BD11FFF48E200B06396 /* Doors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doors.h; sourceTree = "<group>"; };
+		D4CB8BD21FFF48E200B06396 /* Doors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doors.m; sourceTree = "<group>"; };
+		D4CB8BD41FFF4C6600B06396 /* AC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AC.h; sourceTree = "<group>"; };
+		D4CB8BD51FFF4C6600B06396 /* AC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AC.m; sourceTree = "<group>"; };
+		D4CB8BDD1FFF504800B06396 /* Curtains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curtains.h; sourceTree = "<group>"; };
+		D4CB8BDE1FFF504800B06396 /* Curtains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Curtains.m; sourceTree = "<group>"; };
+		D4CB8BE01FFF524500B06396 /* WaterBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterBottle.h; sourceTree = "<group>"; };
+		D4CB8BE11FFF524500B06396 /* WaterBottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterBottle.m; sourceTree = "<group>"; };
+		D4CB8BE31FFF525D00B06396 /* TeleVision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeleVision.h; sourceTree = "<group>"; };
+		D4CB8BE41FFF525D00B06396 /* TeleVision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeleVision.m; sourceTree = "<group>"; };
+		D4CB8BE61FFF5A4600B06396 /* Indra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indra.h; sourceTree = "<group>"; };
+		D4CB8BE71FFF5A4600B06396 /* Indra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Indra.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,34 @@
 			isa = PBXGroup;
 			children = (
 				D45E7AA61FFF2F68009A2A60 /* main.m */,
+				D4CB8BB61FFF347800B06396 /* BusDepot.h */,
+				D4CB8BB71FFF347800B06396 /* BusDepot.m */,
+				D4CB8BB91FFF34C300B06396 /* OrdinaryBus.h */,
+				D4CB8BBA1FFF34C300B06396 /* OrdinaryBus.m */,
+				D4CB8BBC1FFF34FD00B06396 /* ExpressBus.h */,
+				D4CB8BBD1FFF34FD00B06396 /* ExpressBus.m */,
+				D4CB8BBF1FFF351400B06396 /* DeluxeBus.h */,
+				D4CB8BC01FFF351400B06396 /* DeluxeBus.m */,
+				D4CB8BC21FFF352D00B06396 /* GarudaBus.h */,
+				D4CB8BC31FFF352D00B06396 /* GarudaBus.m */,
+				D4CB8BC81FFF3D6600B06396 /* Seat.h */,
+				D4CB8BC91FFF3D6600B06396 /* Seat.m */,
+				D4CB8BCB1FFF45B200B06396 /* Steering.h */,
+				D4CB8BCC1FFF45B200B06396 /* Steering.m */,
+				D4CB8BCE1FFF47A300B06396 /* Horn.h */,
+				D4CB8BCF1FFF47A300B06396 /* Horn.m */,
+				D4CB8BD11FFF48E200B06396 /* Doors.h */,
+				D4CB8BD21FFF48E200B06396 /* Doors.m */,
+				D4CB8BD41FFF4C6600B06396 /* AC.h */,
+				D4CB8BD51FFF4C6600B06396 /* AC.m */,
+				D4CB8BDD1FFF504800B06396 /* Curtains.h */,
+				D4CB8BDE1FFF504800B06396 /* Curtains.m */,
+				D4CB8BE01FFF524500B06396 /* WaterBottle.h */,
+				D4CB8BE11FFF524500B06396 /* WaterBottle.m */,
+				D4CB8BE31FFF525D00B06396 /* TeleVision.h */,
+				D4CB8BE41FFF525D00B06396 /* TeleVision.m */,
+				D4CB8BE61FFF5A4600B06396 /* Indra.h */,
+				D4CB8BE71FFF5A4600B06396 /* Indra.m */,
 			);
 			path = BusDepotComposition;
 			sourceTree = "<group>";
@@ -119,7 +189,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CB8BC41FFF352D00B06396 /* GarudaBus.m in Sources */,
 				D45E7AA71FFF2F68009A2A60 /* main.m in Sources */,
+				D4CB8BDF1FFF504800B06396 /* Curtains.m in Sources */,
+				D4CB8BBB1FFF34C300B06396 /* OrdinaryBus.m in Sources */,
+				D4CB8BB81FFF347800B06396 /* BusDepot.m in Sources */,
+				D4CB8BBE1FFF34FD00B06396 /* ExpressBus.m in Sources */,
+				D4CB8BD61FFF4C6600B06396 /* AC.m in Sources */,
+				D4CB8BE51FFF525D00B06396 /* TeleVision.m in Sources */,
+				D4CB8BC11FFF351400B06396 /* DeluxeBus.m in Sources */,
+				D4CB8BCD1FFF45B200B06396 /* Steering.m in Sources */,
+				D4CB8BD31FFF48E200B06396 /* Doors.m in Sources */,
+				D4CB8BD01FFF47A300B06396 /* Horn.m in Sources */,
+				D4CB8BE81FFF5A4600B06396 /* Indra.m in Sources */,
+				D4CB8BE21FFF524500B06396 /* WaterBottle.m in Sources */,
+				D4CB8BCA1FFF3D6600B06396 /* Seat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +332,7 @@
 				D45E7AAC1FFF2F68009A2A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

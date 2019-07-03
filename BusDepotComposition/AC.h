@@ -1,0 +1,17 @@
+//
+//  AC.h
+//  BusDepotComposition
+//
+//  Created by Alivelu Ravula on 1/5/18.
+//  Copyright © 2018 Alivelu Ravula. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface AC : NSObject
+
+@property NSString *ACFacility;
+-(id)initWithACFacility:(NSString *)facility;
+
+
+@end

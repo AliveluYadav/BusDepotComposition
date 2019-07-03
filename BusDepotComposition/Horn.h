@@ -1,0 +1,14 @@
+//
+//  Horn.h
+//  BusDepotComposition
+//
+//  Created by Alivelu Ravula on 1/5/18.
+//  Copyright © 2018 Alivelu Ravula. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface Horn : NSObject
+-(void)setHornFacility:(NSString *)facility;
+
+@end
